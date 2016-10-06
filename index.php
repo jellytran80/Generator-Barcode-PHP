@@ -12,6 +12,7 @@ $text = 'BarcodeGeneratorPNG-Code39';
 $generator = new BarcodeGeneratorPNG();
 $imgbar = base64_encode($generator->getBarcode($text, $generator::TYPE_CODE_39, 1, 50));
 ?>
-
+<div>
 <?= '<img src="data:image/png;base64,' . $imgbar . '">'; ?>
-<h2><?= $text ?></h2>
+<p><?= $text ?></p>	
+</div>
