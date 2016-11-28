@@ -1,6 +1,11 @@
 <?php 
 /**
  * Return SVG format
+ * @param [type] $code [<description>]
+ * @param [type] $type [<description>]
+ * @param [type] $widthFactor [<description>]
+ * @param [type] $totalHeight [<description>]
+ * @param [type] $color [<description>]
  */
 class BarcodeGeneratorSVG extends BarcodeGenerator{
 	
