@@ -20,3 +20,10 @@ $imgbar2 = base64_encode($generator->getBarcode($text, $generator::TYPE_CODE_39,
 <br>
 <?= '<img src="data:image/png;base64,' . $imgbar2 . '">'; ?>
 <p><?= $text ?></p>	
+<br>
+<?= '<img src="data:image/png;base64,' . $imgbar2 . '">'; ?>
+<p><?= $text ?></p>	
+
+<br>
+<?= '<img src="data:image/png;base64,' . $imgbar2 . '">'; ?>
+<p><?= $text ?></p>	
